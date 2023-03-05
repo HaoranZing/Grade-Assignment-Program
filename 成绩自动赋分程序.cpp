@@ -1,7 +1,7 @@
 /*
 	Developed by HaoranZing on January 6, 2023. 
-	Copyright 2022 ¡¤HaoranZing.
-	Website URL : https://haoranzing.com/  &  https://www.cnblogs.com/HaoranZing/
+	Copyright 2022 Â·HaoranZing.
+	Website URL : https://github.com/HaoranZing/ &  https://www.cnblogs.com/HaoranZing/
 */ 
 
 # include <bits/stdc++.h>
@@ -21,7 +21,7 @@ struct Peak {
 	double Geography ;
 } ;
 
-// ÅĞ¶ÏÖ÷¿Æ·ÖÊıºÏ·¨ĞÔº¯Êı 
+// åˆ¤æ–­ä¸»ç§‘åˆ†æ•°åˆæ³•æ€§å‡½æ•° 
 bool Check_Main ( double Grades ) {
 	if ( Grades > 150.0 || Grades < 0.0 ) {
 		return true ;
@@ -29,7 +29,7 @@ bool Check_Main ( double Grades ) {
 	return false ;
 }
 
-// ÅĞ¶Ï¸±¿Æ·ÖÊıºÏ·¨ĞÔº¯Êı 
+// åˆ¤æ–­å‰¯ç§‘åˆ†æ•°åˆæ³•æ€§å‡½æ•° 
 bool Check_Deputy ( double Grades ) {
 	if ( Grades > 100.0 || Grades < 0.0 ) {
 		return true ;
@@ -37,7 +37,7 @@ bool Check_Deputy ( double Grades ) {
 	return false ;
 }
 
-// ÅĞ¶ÏÌåÓı·ÖÊıºÏ·¨ĞÔº¯Êı 
+// åˆ¤æ–­ä½“è‚²åˆ†æ•°åˆæ³•æ€§å‡½æ•° 
 bool Check_PE ( double Grades ) {
 	if ( Grades > 50.0 || Grades < 0.0 ) {
 		return true ;
@@ -52,12 +52,12 @@ int main ( ) {
 	
 	for ( int i = 1 ; i <= 10 ; i++ ) {
 		
-		// Ñ¯ÎÊÓïÎÄ³É¼¨ 
+		// è¯¢é—®è¯­æ–‡æˆç»© 
 		if ( i == 1 ) {
-			cout << "ÇëÊäÈëÄúµÄ ÓïÎÄ³É¼¨£º" ;
+			cout << "è¯·è¾“å…¥æ‚¨çš„ è¯­æ–‡æˆç»©ï¼š" ;
 			scanf ( "%lf" , &HaoranZing.Chinese ) ;
 			if ( Check_Main ( HaoranZing.Chinese ) ) {
-				cout << "³É¼¨´íÎó£¡ÇëÖØĞÂÊäÈë£¡" << endl ;
+				cout << "æˆç»©é”™è¯¯ï¼è¯·é‡æ–°è¾“å…¥ï¼" << endl ;
 				i-- ;
 				continue ;
 			} 
@@ -66,12 +66,12 @@ int main ( ) {
 			}
 		}
 		
-		// Ñ¯ÎÊÊıÑ§³É¼¨ 
+		// è¯¢é—®æ•°å­¦æˆç»© 
 		if ( i == 2 ) {
-			cout << "ÇëÊäÈëÄúµÄ ÊıÑ§³É¼¨£º" ;
+			cout << "è¯·è¾“å…¥æ‚¨çš„ æ•°å­¦æˆç»©ï¼š" ;
 			scanf ( "%lf" , &HaoranZing.Math ) ;
 			if ( Check_Main ( HaoranZing.Math ) ) {
-				cout << "³É¼¨´íÎó£¡ÇëÖØĞÂÊäÈë£¡" << endl ;
+				cout << "æˆç»©é”™è¯¯ï¼è¯·é‡æ–°è¾“å…¥ï¼" << endl ;
 				i-- ;
 				continue ;
 			} 
@@ -80,12 +80,12 @@ int main ( ) {
 			}
 		}
 		
-		// Ñ¯ÎÊÓ¢Óï³É¼¨ 
+		// è¯¢é—®è‹±è¯­æˆç»© 
 		if ( i == 3 ) {
-			cout << "ÇëÊäÈëÄúµÄ Ó¢Óï³É¼¨£º" ;
+			cout << "è¯·è¾“å…¥æ‚¨çš„ è‹±è¯­æˆç»©ï¼š" ;
 			scanf ( "%lf" , &HaoranZing.English ) ;
 			if ( Check_Main ( HaoranZing.English ) ) {
-				cout << "³É¼¨´íÎó£¡ÇëÖØĞÂÊäÈë£¡" << endl ;
+				cout << "æˆç»©é”™è¯¯ï¼è¯·é‡æ–°è¾“å…¥ï¼" << endl ;
 				i-- ;
 				continue ;
 			} 
@@ -94,12 +94,12 @@ int main ( ) {
 			}
 		}
 		
-		// Ñ¯ÎÊÕşÖÎ³É¼¨ 
+		// è¯¢é—®æ”¿æ²»æˆç»© 
 		if ( i == 4 ) {
-			cout << "ÇëÊäÈëÄúµÄ ÕşÖÎ³É¼¨£º" ;
+			cout << "è¯·è¾“å…¥æ‚¨çš„ æ”¿æ²»æˆç»©ï¼š" ;
 			scanf ( "%lf" , &HaoranZing.Politics ) ;
 			if ( Check_Deputy ( HaoranZing.Politics ) ) {
-				cout << "³É¼¨´íÎó£¡ÇëÖØĞÂÊäÈë£¡" << endl ;
+				cout << "æˆç»©é”™è¯¯ï¼è¯·é‡æ–°è¾“å…¥ï¼" << endl ;
 				i-- ;
 				continue ;
 			} 
@@ -108,12 +108,12 @@ int main ( ) {
 			}
 		}
 		
-		// Ñ¯ÎÊÀúÊ·³É¼¨ 
+		// è¯¢é—®å†å²æˆç»© 
 		if ( i == 5 ) {
-			cout << "ÇëÊäÈëÄúµÄ ÀúÊ·³É¼¨£º" ;
+			cout << "è¯·è¾“å…¥æ‚¨çš„ å†å²æˆç»©ï¼š" ;
 			scanf ( "%lf" , &HaoranZing.History ) ;
 			if ( Check_Deputy ( HaoranZing.History ) ) {
-				cout << "³É¼¨´íÎó£¡ÇëÖØĞÂÊäÈë£¡" << endl ;
+				cout << "æˆç»©é”™è¯¯ï¼è¯·é‡æ–°è¾“å…¥ï¼" << endl ;
 				i-- ;
 				continue ;
 			} 
@@ -122,12 +122,12 @@ int main ( ) {
 			}
 		}
 		
-		// Ñ¯ÎÊÎïÀí³É¼¨ 
+		// è¯¢é—®ç‰©ç†æˆç»© 
 		if ( i == 6 ) {
-			cout << "ÇëÊäÈëÄúµÄ ÎïÀí³É¼¨£º" ;
+			cout << "è¯·è¾“å…¥æ‚¨çš„ ç‰©ç†æˆç»©ï¼š" ;
 			scanf ( "%lf" , &HaoranZing.Physics ) ;
 			if ( Check_Deputy ( HaoranZing.Physics ) ) {
-				cout << "³É¼¨´íÎó£¡ÇëÖØĞÂÊäÈë£¡" << endl ;
+				cout << "æˆç»©é”™è¯¯ï¼è¯·é‡æ–°è¾“å…¥ï¼" << endl ;
 				i-- ;
 				continue ;
 			} 
@@ -136,12 +136,12 @@ int main ( ) {
 			}
 		}
 		
-		// Ñ¯ÎÊ»¯Ñ§³É¼¨ 
+		// è¯¢é—®åŒ–å­¦æˆç»© 
 		if ( i == 7 ) {
-			cout << "ÇëÊäÈëÄúµÄ »¯Ñ§³É¼¨£º" ;
+			cout << "è¯·è¾“å…¥æ‚¨çš„ åŒ–å­¦æˆç»©ï¼š" ;
 			scanf ( "%lf" , &HaoranZing.Chemistry ) ;
 			if ( Check_Deputy ( HaoranZing.Chemistry ) ) {
-				cout << "³É¼¨´íÎó£¡ÇëÖØĞÂÊäÈë£¡" << endl ;
+				cout << "æˆç»©é”™è¯¯ï¼è¯·é‡æ–°è¾“å…¥ï¼" << endl ;
 				i-- ;
 				continue ;
 			} 
@@ -150,12 +150,12 @@ int main ( ) {
 			}
 		}
 		
-		// Ñ¯ÎÊÌåÓı³É¼¨ 
+		// è¯¢é—®ä½“è‚²æˆç»© 
 		if ( i == 8 ) {
-			cout << "ÇëÊäÈëÄúµÄ ÌåÓı³É¼¨£º" ;
+			cout << "è¯·è¾“å…¥æ‚¨çš„ ä½“è‚²æˆç»©ï¼š" ;
 			scanf ( "%lf" , &HaoranZing.PE ) ;
 			if ( Check_PE ( HaoranZing.PE ) ) {
-				cout << "³É¼¨´íÎó£¡ÇëÖØĞÂÊäÈë£¡" << endl ;
+				cout << "æˆç»©é”™è¯¯ï¼è¯·é‡æ–°è¾“å…¥ï¼" << endl ;
 				i-- ;
 				continue ;
 			} 
@@ -164,12 +164,12 @@ int main ( ) {
 			}
 		}
 		
-		// Ñ¯ÎÊÉúÎï³É¼¨ 
+		// è¯¢é—®ç”Ÿç‰©æˆç»© 
 		if ( i == 9 ) {
-			cout << "ÇëÊäÈëÄúµÄ ÉúÎï³É¼¨£º£¨ÀıÈç£º91 £©" ;
+			cout << "è¯·è¾“å…¥æ‚¨çš„ ç”Ÿç‰©æˆç»©ï¼šï¼ˆä¾‹å¦‚ï¼š91 ï¼‰" ;
 			scanf ( "%lf" , &HaoranZing.Creature ) ;
 			if ( Check_Deputy ( HaoranZing.Creature ) ) {
-				cout << "³É¼¨´íÎó£¡ÇëÖØĞÂÊäÈë£¡" << endl ;
+				cout << "æˆç»©é”™è¯¯ï¼è¯·é‡æ–°è¾“å…¥ï¼" << endl ;
 				i-- ;
 				continue ;
 			} 
@@ -178,12 +178,12 @@ int main ( ) {
 			}
 		}
 		
-		// Ñ¯ÎÊµØÀí³É¼¨ 
+		// è¯¢é—®åœ°ç†æˆç»© 
 		if ( i == 10 ) {
-			cout << "ÇëÊäÈëÄúµÄ µØÀí³É¼¨£º£¨ÀıÈç£º93 £©" ;
+			cout << "è¯·è¾“å…¥æ‚¨çš„ åœ°ç†æˆç»©ï¼šï¼ˆä¾‹å¦‚ï¼š93 ï¼‰" ;
 			scanf ( "%lf" , &HaoranZing.Geography ) ;
 			if ( Check_Deputy ( HaoranZing.Geography ) ) {
-				cout << "³É¼¨´íÎó£¡ÇëÖØĞÂÊäÈë£¡" << endl ;
+				cout << "æˆç»©é”™è¯¯ï¼è¯·é‡æ–°è¾“å…¥ï¼" << endl ;
 				i-- ;
 				continue ;
 			} 
@@ -195,51 +195,51 @@ int main ( ) {
 	
 	system ( "cls" ) ;
 	cout << "-------------------------" << endl ;
-	cout << "----- ³É¼¨Â¼Èë³É¹¦£¡-----" << endl ;
-	cout << "------¿ªÊ¼·ÖÎö³É¼¨£¡-----" << endl ;
+	cout << "----- æˆç»©å½•å…¥æˆåŠŸï¼-----" << endl ;
+	cout << "------å¼€å§‹åˆ†ææˆç»©ï¼-----" << endl ;
 	cout << "-------------------------" << endl ; 
 	Sleep ( 1000 ) ;
 	
-	// ½ø¶ÈÌõ¶¯»­ 
+	// è¿›åº¦æ¡åŠ¨ç”» 
 	int c = 1, d = 0;
     for (int i = 0; i < 50; i++)
     {
         cout << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
         cout << "\t\t\t\t+-------------------------------------------------+" << endl;
         cout << "\t\t\t\t|";
-        for (int a = 0; a < i; a++)   //´òÓ¡¨ƒ
+        for (int a = 0; a < i; a++)   //æ‰“å°â–‹
         {
-            cout << "¨ƒ";
+            cout << "â–‹";
         }
-        for (int b = 49 - i; b > 0; b--)   //´òÓ¡¿Õ¸ñ
+        for (int b = 49 - i; b > 0; b--)   //æ‰“å°ç©ºæ ¼
         {
             cout << " ";
         }
-        d += 2;   //½ø¶ÈÊı
+        d += 2;   //è¿›åº¦æ•°
         cout << "|  " << d << "%" << endl;
         cout << "\t\t\t\t+-------------------------------------------------+" << endl;
-        cout << "\t\t\t\t               ÕıÔÚ¼ÓÔØÖĞ£¬ÇëÉÔºó.";
+        cout << "\t\t\t\t               æ­£åœ¨åŠ è½½ä¸­ï¼Œè¯·ç¨å.";
         for (int j = 0; j < c % 6; j++)
         {
             cout << ".";
         }
         c++;
         cout << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-        Sleep(50);   //½ø¶ÈÌõ¶ÁÈ¡ËÙ¶È
+        Sleep(50);   //è¿›åº¦æ¡è¯»å–é€Ÿåº¦
         if (i != 49)
         {
-            system("cls");   //ÇåÆÁ
+            system("cls");   //æ¸…å±
         }
     }
 	
 	system ( "cls" ) ;
 	
 	cout << "-------------------------" << endl ;
-	cout << "----- ³É¼¨·ÖÎöÍê±Ï£¡-----" << endl ;
+	cout << "----- æˆç»©åˆ†æå®Œæ¯•ï¼-----" << endl ;
 	cout << "-------------------------" << endl ; 
-	cout << "==> ÄúµÄ×Ü³É¼¨Îª: " << Total << endl ;
+	cout << "==> æ‚¨çš„æ€»æˆç»©ä¸º: " << Total << endl ;
 	cout << "-------------------------" << endl ; 
-	cout << "------¸ĞĞ»ÄúµÄÊ¹ÓÃ£¡-----" << endl ; 
+	cout << "------æ„Ÿè°¢æ‚¨çš„ä½¿ç”¨ï¼-----" << endl ; 
 	cout << "-------------------------" << endl ; 
 	cout << "Developed by HaoranZing on January 6, 2023." << endl << endl << endl ; 
 	
