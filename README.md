@@ -71,6 +71,8 @@ In Total :  850
 
 > 💻 各地区的赋分标准略有差异，若想自定义，请下载 `Zip文件` 或 `Fork` 该仓库进行二创，记得 `Star` 哟 (＾Ｕ＾)ノ~ＹＯ ！
 
+> 本仓库中只有64位.exe运行文件，若需要32位.exe、MacOS或Linux系统的运行文件，请自行下载源代码编译运行！
+
 ## 🉑 许可证
 
 [![license](https://img.shields.io/github/license/halo-dev/halo.svg?style=flat-square)](https://github.com/Pollen-Z/Pollen-Z.github.io/blob/main/LICENSE.md)
