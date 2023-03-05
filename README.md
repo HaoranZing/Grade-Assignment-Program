@@ -88,7 +88,7 @@ In Total :  850
 /*
 	Developed by HaoranZing on January 6, 2023. 
 	Copyright 2022 ·HaoranZing.
-	Website URL : https://haoranzing.com/  &  https://www.cnblogs.com/HaoranZing/
+	Website URL : https://github.com/HaoranZing/  &  https://www.cnblogs.com/HaoranZing/
 */ 
 
 # include <bits/stdc++.h>
